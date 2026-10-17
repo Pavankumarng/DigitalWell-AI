@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local datasets and generated model artifacts (check permissions before sharing)
+Smartphone_Usage_And_Addiction_Analysis_7500_Rows.csv
+*.pkl
+*.joblib
+
+# Runtime logs and archives
+*.log
+*.zip
+
+# Local secrets
+.streamlit/secrets.toml
+.env
+.env.*
